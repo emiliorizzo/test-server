@@ -1,0 +1,59 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: darkslategrey;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-size: 2vw;
+}
+
+.hit {
+  font-size: 3vw;
+  letter-spacing: 0.125em;
+  background-color: ghostwhite;
+  border-style: solid;
+  border-width: 0.5vw 0 0.5vw 0;
+  z-index: 10;
+}
+
+.title {
+  color: lightgrey;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding-top: 3%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fruit {
+  width: 30%;
+  height: 30vw;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 auto;
+  border: solid 1vw;
+  box-shadow: -1px -1px 5px black;
+}
+
+.fruit img {
+  max-width: 75%;
+  margin-top: 12.5%;
+  height: auto;
+}
+
+.apple {
+  border-color: darkred;
+  color: darkred;
+}
+
+.pear {
+  border-color: yellowgreen;
+  color: yellowgreen;
+}
